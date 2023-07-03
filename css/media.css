@@ -1,0 +1,106 @@
+/* smart phone and tablets*/
+@media (max-width: 767px)
+{
+	.carousel,.social_media,.About,
+	.Sub-list,.Standard{text-align: center;}
+
+	.carousel .centering-vp {margin-top: 100px;}
+	.carousel button{ display: block; margin:30px auto;}
+	.carousel h1{font-size: 40px;}
+	.carousel p:nth-of-type(1){font-size: 15px;}
+	.carousel .head-border:after {margin: 20px auto;}
+	.carousel form {display: none;}
+
+	.social_media a i{font-size: 35px;margin: 10px 12px 40px 0;}
+
+	.About {padding-top: 20px;}
+	.About ul{padding: 0;}
+	.About ul li {width: 100%;}
+	.About .tab-list{padding-bottom: 20px;}
+
+	.Sub-list{padding: 40px 0 40px 0;}
+	.Sub-list i{float:none; margin: 15px 0px 10px 0px;}
+	.Sub-list .head-border:after{margin: 20px auto;}
+	.Sub-list h3{margin-top: 40px;}
+
+	.Standard{padding: 40px 0 40px 0;}
+	.Standard .head-border:after{margin: 20px auto;}
+	
+	.Awesome{padding: 40px 0 40px 0;}
+	.Awesome h3{font-size: 20px;}
+
+	.Pricing{padding: 40px 0 40px 0;}
+	.Pricing h3{font-size: 20px;}
+	.Pricing .row .price-div{margin-bottom: 15px;}
+	.Pricing .row .price-div:nth-of-type(1){margin-left: 0px;}
+	.Pricing .basic,.Pricing .enterprise{margin-top: 0px;}
+
+	.testmonails{padding: 40px 0 40px 0;}
+	.testmonails h3{font-size:20px;}
+
+	.sk-folding-cube{margin: 95% auto;}
+
+}
+
+/*small screen "tablet"*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.carousel,.social_media,.About,
+	.Sub-list,.Standard{text-align: center;}
+
+	.carousel .centering-vp {margin-top: 100px;}
+	.carousel button{ display: block; margin:30px auto;}
+	.carousel h1{font-size: 40px;}
+	.carousel p:nth-of-type(1){font-size: 15px;}
+	.carousel .head-border:after {margin: 20px auto;}
+
+	.social_media p{width: 225px;}
+	.social_media a i{font-size: 35px;margin: 34px 20px 24px 0;}
+
+	.About button {margin-bottom: 60px;}
+	.About ul{padding: 0;}
+	.About ul li {width: 100%;}
+	.About .tab-list{padding-bottom: 20px;}
+
+	.Sub-list{padding: 60px 0 60px 0;}
+	.Sub-list i{float:none; margin: 15px 0px 10px 0px;}
+	.Sub-list .head-border:after{margin: 20px auto;}
+	.Sub-list img{width: 90%;height: 40%;}
+
+	.Standard{padding: 60px 0 60px 0;}
+	.Standard .head-border:after{margin: 20px auto;}
+	
+	.Awesome{padding: 60px 0 60px 0;}
+
+	.Pricing{padding: 60px 0 60px 0;}
+	.Pricing .price-div{margin-bottom: 15px;}
+	.Pricing .row .price-div:nth-of-type(1){margin-left: 95px;}
+	.Pricing .price-body ul li {font-size: 10px;}
+	.Pricing .tip{font-size: 12px;padding-bottom: 12px;}
+
+	.testmonails{padding: 60px 0 60px 0;}
+	.testmonails .head-section p 
+	{
+		width: 210px;
+		border-radius: 10%;
+		font-size: 12px;
+	}
+	.testmonails .media p{font-size: 12px;}
+	.testmonails .media h5{font-size: 1rem;}
+
+	.sk-folding-cube{margin: 40% auto;}
+
+} 
+
+/*medium screen "Labtop"*/
+@media (min-width: 992px) and (max-width: 1199px)
+{	
+	.sk-folding-cube{margin: 30% auto;}
+}
+
+/*Large screen "labtop large"*/
+@media (min-width: 1200px)
+{
+	.sk-folding-cube{margin: 30% auto;}
+}
+
